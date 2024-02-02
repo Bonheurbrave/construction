@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeback{
+    background-image:url('./images/homeback.jpg');
+    background-size:cover;
+    background-position:center;
+}
+.homeintrotransparent{
+    background:rgba(0 , 0 , 0 , 0.50)
+}
+.animateleftright{
+    animation:bon 0.7s linear infinite;
+
+}
+@keyframes bon{
+    100%{margin-left:4px}
+}
+.btn{
+    background:dodgerblue;
+    border-radius:20px 30px 3000px 20px;
+}
+.aboutheader{
+    border-radius:20px 20px 20px 10000px;
+    background-image:url('./images/aboutheader.jpg');
+    background-position:center;
+    background-size:cover;
+
+}
+.yy1{
+    transform:rotate(45deg);
+    border-radius:50%;
+    background:transparent;
+    border:3px solid transparent;
+    height:200px;
+    width:200px;
+    border-top:10px dashed dodgerblue;
+}
+.yy2{
+    transform:rotate(45deg);
+    border-radius:50%;
+    background:transparent;
+    border:3px solid transparent;
+    height:200px;
+    width:200px;
+    border-top:10px dashed dodgerblue;
+    border-right:10px dashed dodgerblue;
+
+}
+.yy3{
+    transform:rotate(45deg);
+    border-radius:50%;
+    background:transparent;
+    border:3px solid transparent;
+    height:200px;
+    width:200px;
+    border-top:10px dashed dodgerblue;
+    border-right:10px dashed dodgerblue;
+}
+.yy4{
+    transform:rotate(45deg);
+    border-radius:50%;
+    background:transparent;
+    border:3px solid transparent;
+    height:200px;
+    width:200px;
+    border-top:10px dashed dodgerblue;
+}
+.aboutcontainers{
+    transform:rotate(-45deg);
+    
+}
+
+.meet::after{
+content:'';
+position:absolute;
+width:8%;
+animation:bon 2s linear infinite;
+transform:translate(-50%,0);
+left:50%;
+bottom:-3px;
+height:4px;
+background:#ff7200;
+padding-bottom:6px;
+margin-bottom:10px;
+
+}
+.meet{
+    position:relative;
+}
+
+@keyframes bon{
+    0%{width:0%}
+    100%{ width:10%}
+    
+}
+.ours{
+    background-image:url("./images/ourcompany.jpg");
+    background-position:center;
+    background-size:cover;
+
+}
+.get{
+    border-radius:3000px 30px 3000px 20px;
+    box-shadow: 0px 0px 20px blue;
+
+}
+.learn{
+    border-radius:3000px 30px;
+    box-shadow: 0px 0px 20px blue;
+
+}
+.nn{
+    letter-spacing:8px;
+}
